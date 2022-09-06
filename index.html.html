@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--google font icons-->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>form</title>
+</head>
+<body>
+
+		<h2>details of a person</h2>
+
+	<form action="/action_page.php">
+	<div>
+  		<label for="fname">First name:</label><br>
+  		<input type="text" id="fname" name="fname" value=""><br>
+  		<label for="lname">Last name:</label><br>
+  		<input type="text" id="lname" name="lname" value="">
+ 	</div>
+	<br>
+	<div>
+		gender :
+		<input list="gender" name="gender">
+  		<datalist id="gender">
+    		<option value="male">
+    		<option value="female">
+    		<option value="another">
+	</div>
+	<br>
+	<div>
+		<label for="place">place:</label>
+  		<select id="place" name="place" size="3">
+    		<option value="kollam">kollam</option>
+    		<option value="trivandrum">trivandrum</option>
+    		<option value="alapuzha">alapuzha</option>
+    		<option value="kottayam">kottayam</option>
+  		</select><br><br>
+ 		 <input type="submit">
+	</div>
+
+
+	<br>
+     		<button type="button" onclick="alert('you have registered!')">Click Me!</button>
+	
+	
+ 		
+		
+		
+
+	</form>
+
+</body>
+</html>
